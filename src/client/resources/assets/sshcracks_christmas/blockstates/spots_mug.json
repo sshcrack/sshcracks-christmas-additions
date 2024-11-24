@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "sshcracks_christmas:block/mug/spots", "uvlock": false },
+    "facing=east":  { "model": "sshcracks_christmas:block/mug/spots", "y":  90, "uvlock": false },
+    "facing=south": { "model": "sshcracks_christmas:block/mug/spots", "y": 180, "uvlock": false },
+    "facing=west":  { "model": "sshcracks_christmas:block/mug/spots", "y": 270, "uvlock": false }
+  }
+}

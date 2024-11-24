@@ -1,0 +1,44 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "sshcracks_christmas:block/floe/floe",
+        "weight": 2
+      },
+      {
+        "model": "sshcracks_christmas:block/floe/floe",
+        "y": 90,
+        "weight": 2
+      },
+      {
+        "model": "sshcracks_christmas:block/floe/floe",
+        "y": 180,
+        "weight": 2
+      },
+      {
+        "model": "sshcracks_christmas:block/floe/floe",
+        "y": 270,
+        "weight": 2
+      },
+      {
+        "model": "sshcracks_christmas:block/floe/floe_2",
+        "weight": 1
+      },
+      {
+        "model": "sshcracks_christmas:block/floe/floe_2",
+        "y": 90,
+        "weight": 1
+      },
+      {
+        "model": "sshcracks_christmas:block/floe/floe_2",
+        "y": 180,
+        "weight": 1
+      },
+      {
+        "model": "sshcracks_christmas:block/floe/floe_2",
+        "y": 270,
+        "weight": 1
+      }
+    ]
+  }
+}

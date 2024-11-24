@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "sshcracks_christmas:block/mug/candycane", "uvlock": false },
+    "facing=east":  { "model": "sshcracks_christmas:block/mug/candycane", "y":  90, "uvlock": false },
+    "facing=south": { "model": "sshcracks_christmas:block/mug/candycane", "y": 180, "uvlock": false },
+    "facing=west":  { "model": "sshcracks_christmas:block/mug/candycane", "y": 270, "uvlock": false }
+  }
+}
