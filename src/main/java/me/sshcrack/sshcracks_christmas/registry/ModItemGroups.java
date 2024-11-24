@@ -20,6 +20,7 @@ public class ModItemGroups {
                 entries.add(ModBlocks.SNOWFLAKES_MUG);
                 entries.add(ModBlocks.SNOWMAN_MUG);
                 entries.add(ModBlocks.SPOTS_MUG);
+                entries.add(ModBlocks.FLOE);
             })
             .build();
 
