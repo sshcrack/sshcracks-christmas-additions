@@ -1,7 +1,7 @@
 {
 	"textures": {
-		"1": "block/peony/snowman_mid",
-		"2": "block/peony/snowman_base",
+		"1": "sshcracks_christmas:block/built_snowman/snowman_mid",
+		"2": "sshcracks_christmas:block/built_snowman/snowman_base",
 		"particle": "block/snow"
 	},
 	"elements": [

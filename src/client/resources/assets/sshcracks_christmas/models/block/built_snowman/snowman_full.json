@@ -1,15 +1,16 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/peony/snowman_head",
-		"1": "block/peony/snowman_mid",
-		"particle": "block/snow"
+		"0": "sshcracks_christmas:block/built_snowman/snowman_head",
+		"1": "sshcracks_christmas:block/built_snowman/snowman_mid",
+		"2": "sshcracks_christmas:block/built_snowman/snowman_base",
+		"particle": "block/snowman_head"
 	},
 	"elements": [
 		{
 			"name": "head",
-			"from": [4, 6, 4],
-			"to": [12, 15, 12],
+			"from": [4, 22, 4],
+			"to": [12, 31, 12],
 			"faces": {
 				"north": {"uv": [0, 11, 4, 16], "texture": "#0"},
 				"east": {"uv": [12, 11, 16, 16], "texture": "#0"},
@@ -21,8 +22,8 @@
 		},
 		{
 			"name": "nose",
-			"from": [7, 6, 2],
-			"to": [9, 10, 4],
+			"from": [7, 22, 2],
+			"to": [9, 26, 4],
 			"faces": {
 				"north": {"uv": [1, 9, 2, 11], "texture": "#0"},
 				"east": {"uv": [0, 9, 1, 11], "texture": "#0"},
@@ -34,21 +35,21 @@
 		},
 		{
 			"name": "middle",
-			"from": [3, 0, 3],
-			"to": [13, 6, 13],
+			"from": [3, 12, 3],
+			"to": [13, 22, 13],
 			"faces": {
-				"north": {"uv": [5, 6, 10, 9], "texture": "#1"},
-				"east": {"uv": [0, 6, 5, 9], "texture": "#1"},
-				"south": {"uv": [10, 11, 15, 14], "texture": "#1"},
-				"west": {"uv": [10, 6, 15, 9], "texture": "#1"},
+				"north": {"uv": [5, 6, 10, 11], "texture": "#1"},
+				"east": {"uv": [0, 6, 5, 11], "texture": "#1"},
+				"south": {"uv": [10, 11, 15, 16], "texture": "#1"},
+				"west": {"uv": [10, 6, 15, 11], "texture": "#1"},
 				"up": {"uv": [5, 1, 10, 6], "rotation": 270, "texture": "#1"},
 				"down": {"uv": [5, 11, 10, 16], "rotation": 90, "texture": "#1"}
 			}
 		},
 		{
 			"name": "arm_right",
-			"from": [14, 0, 7],
-			"to": [15, 9, 8],
+			"from": [2, 11, 7],
+			"to": [3, 20, 8],
 			"rotation": {"angle": -45, "axis": "z", "origin": [2.5, 16.5, 8.5]},
 			"faces": {
 				"north": {"uv": [11, 1.5, 11.5, 6], "texture": "#1"},
@@ -60,9 +61,22 @@
 			}
 		},
 		{
+			"name": "base",
+			"from": [2, 0, 2],
+			"to": [14, 12, 14],
+			"faces": {
+				"north": {"uv": [0, 4, 6, 10], "texture": "#2"},
+				"east": {"uv": [6, 4, 12, 10], "texture": "#2"},
+				"south": {"uv": [6, 4, 12, 10], "texture": "#2"},
+				"west": {"uv": [6, 4, 12, 10], "texture": "#2"},
+				"up": {"uv": [6, 10, 12, 16], "texture": "#2"},
+				"down": {"uv": [0, 10, 6, 16], "texture": "#2"}
+			}
+		},
+		{
 			"name": "arm_left",
-			"from": [-2, -8, 8],
-			"to": [-1, 1, 9],
+			"from": [10, 3, 8],
+			"to": [11, 12, 9],
 			"rotation": {"angle": 45, "axis": "z", "origin": [2.5, 16.5, 8.5]},
 			"faces": {
 				"north": {"uv": [12.5, 1.5, 13, 6], "texture": "#1"},
@@ -72,12 +86,6 @@
 				"up": {"uv": [11.5, 1, 12, 1.5], "rotation": 180, "texture": "#1"},
 				"down": {"uv": [12, 1, 12.5, 1.5], "texture": "#1"}
 			}
-		}
-	],
-	"groups": [
-		{
-			"name": "snowman_full",
-			"children": [0, 1, 2, 3, 4]
 		}
 	]
 }

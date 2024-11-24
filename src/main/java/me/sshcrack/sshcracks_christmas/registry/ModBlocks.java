@@ -1,5 +1,6 @@
 package me.sshcrack.sshcracks_christmas.registry;
 
+import me.sshcrack.sshcracks_christmas.block.BuiltSnowmanBlock;
 import me.sshcrack.sshcracks_christmas.block.FloeBlock;
 import me.sshcrack.sshcracks_christmas.block.MugBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -25,7 +26,16 @@ public class ModBlocks {
     public static final Block SNOWFLAKES_MUG = registerMug("snowflakes_mug");
     public static final Block SNOWMAN_MUG = registerMug("snowman_mug");
     public static final Block SPOTS_MUG = registerMug("spots_mug");
-    public static final Block BUILT_SNOWMAN = registerMug("built_snowman");
+    public static final Block BUILT_SNOWMAN = register(
+            new BuiltSnowmanBlock(
+                    AbstractBlock.Settings.create()
+                            .strength(0.5f)
+                            .sounds(BlockSoundGroup.SNOW)
+                            .pistonBehavior(PistonBehavior.DESTROY)
+            ),
+            "built_snowman",
+            true
+    );
 
     public static final Block FLOE = registerWaterPlaceable(
             new FloeBlock(

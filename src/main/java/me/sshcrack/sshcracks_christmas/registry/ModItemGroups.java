@@ -21,6 +21,7 @@ public class ModItemGroups {
                 entries.add(ModBlocks.SNOWMAN_MUG);
                 entries.add(ModBlocks.SPOTS_MUG);
                 entries.add(ModBlocks.FLOE);
+                entries.add(ModBlocks.BUILT_SNOWMAN);
             })
             .build();
 

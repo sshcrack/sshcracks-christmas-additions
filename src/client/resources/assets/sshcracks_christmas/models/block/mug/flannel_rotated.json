@@ -1,0 +1,6 @@
+{
+	"parent": "sshcracks_christmas:block/mug_rotated",
+	"textures": {
+		"all": "sshcracks_christmas:block/mug/flannel"
+	}
+}

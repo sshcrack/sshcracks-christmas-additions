@@ -10,7 +10,7 @@
 		{
 			"from": [5, 0, 5],
 			"to": [6, 7, 11],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7.25, 3.5, 8]},
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [7.25, 3.5, 8]},
 			"faces": {
 				"north": {"uv": [8.5, 9, 9, 16], "texture": "#flowerpot"},
 				"east": {"uv": [9, 9, 12, 16], "texture": "#flowerpot"},
@@ -23,7 +23,7 @@
 		{
 			"from": [10, 0, 5],
 			"to": [11, 7, 11],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7.25, 3.5, 8]},
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [7.25, 3.5, 8]},
 			"faces": {
 				"north": {"uv": [6, 9, 6.5, 16], "texture": "#flowerpot"},
 				"east": {"uv": [3, 9, 6, 16], "texture": "#flowerpot"},
@@ -36,7 +36,7 @@
 		{
 			"from": [6, 0, 5],
 			"to": [10, 7, 6],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7.25, 3.5, 8]},
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [7.25, 3.5, 8]},
 			"faces": {
 				"north": {"uv": [6.5, 9, 8.5, 16], "texture": "#flowerpot"},
 				"south": {"uv": [6.5, 9, 8.5, 16], "texture": "#flowerpot"},
@@ -47,7 +47,7 @@
 		{
 			"from": [6, 0, 10],
 			"to": [10, 7, 11],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7.25, 3.5, 8]},
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [7.25, 3.5, 8]},
 			"faces": {
 				"north": {"uv": [0.5, 9, 2.5, 16], "texture": "#flowerpot"},
 				"south": {"uv": [0.5, 9, 2.5, 16], "texture": "#flowerpot"},
@@ -58,7 +58,7 @@
 		{
 			"from": [6, 0, 6],
 			"to": [10, 6, 10],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7.25, 3.5, 8]},
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [7.25, 3.5, 8]},
 			"faces": {
 				"up": {"uv": [14, 0, 16, 4], "texture": "#flowerpot"},
 				"down": {"uv": [6.5, 4, 8.5, 8], "texture": "#flowerpot", "cullface": "down"}
@@ -67,7 +67,7 @@
 		{
 			"from": [3, 2, 7.5],
 			"to": [5, 6, 8.5],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7.25, 3.5, 8]},
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [7.25, 3.5, 8]},
 			"faces": {
 				"north": {"uv": [13.5, 12, 14.5, 16], "texture": "#flowerpot"},
 				"east": {"uv": [13, 12, 13.5, 16], "texture": "#flowerpot"},

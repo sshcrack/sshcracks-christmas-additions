@@ -1,8 +1,36 @@
 {
   "variants": {
-    "facing=north": { "model": "sshcracks_christmas:block/mug/present", "uvlock": false },
-    "facing=east":  { "model": "sshcracks_christmas:block/mug/present", "y":  90, "uvlock": false },
-    "facing=south": { "model": "sshcracks_christmas:block/mug/present", "y": 180, "uvlock": false },
-    "facing=west":  { "model": "sshcracks_christmas:block/mug/present", "y": 270, "uvlock": false }
+    "facing=north": [
+      { "model": "sshcracks_christmas:block/mug/present", "uvlock": false,
+        "weight": 2
+      },
+      { "model": "sshcracks_christmas:block/mug/present_rotated", "uvlock": false,
+        "weight": 1
+      }
+    ],
+    "facing=east":  [
+      { "model": "sshcracks_christmas:block/mug/present", "y":  90, "uvlock": false,
+        "weight": 2
+      },
+      { "model": "sshcracks_christmas:block/mug/present_rotated", "y":  90, "uvlock": false,
+        "weight": 1
+      }
+    ],
+    "facing=south": [
+      { "model": "sshcracks_christmas:block/mug/present", "y":  180, "uvlock": false,
+        "weight": 2
+      },
+      { "model": "sshcracks_christmas:block/mug/present_rotated", "y":  180, "uvlock": false,
+        "weight": 1
+      }
+    ],
+    "facing=west":  [
+      { "model": "sshcracks_christmas:block/mug/present", "y":  270, "uvlock": false,
+        "weight": 2
+      },
+      { "model": "sshcracks_christmas:block/mug/present_rotated", "y":  270, "uvlock": false,
+        "weight": 1
+      }
+    ]
   }
 }
