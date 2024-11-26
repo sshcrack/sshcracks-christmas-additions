@@ -3,7 +3,7 @@
 	"textures": {
 		"0": "block/mangrove_leaves/mangrove_leaves_side",
 		"1": "block/mangrove_leaves/mangrove_leaves",
-		"2": "block/mangrove_leaves/mangrove_leaves_top",
+		"2": "block/mangrove_leaves/mangrove_leaves",
 		"particle": "block/mangrove_leaves/mangrove_leaves_side"
 	},
 	"elements": [

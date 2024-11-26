@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P  ",
+    "#  ",
+    "#  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:snow_block"
+    },
+    "P": {
+      "item": "minecraft:carved_pumpkin"
+    }
+  },
+  "result": {
+    "id": "sshcracks_christmas:built_snowman",
+    "count": 1
+  }
+}

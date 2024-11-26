@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# ",
+    "M "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:flower_pot"
+    },
+    "#": {
+        "item": "minecraft:red_wool"
+    }
+  },
+  "result": {
+    "id": "sshcracks_christmas:spots_mug",
+    "count": 1
+  }
+}

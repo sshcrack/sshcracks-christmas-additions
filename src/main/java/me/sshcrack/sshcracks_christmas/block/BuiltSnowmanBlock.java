@@ -23,6 +23,7 @@ public class BuiltSnowmanBlock extends HorizontalFacingBlock {
     public static final MapCodec<BuiltSnowmanBlock> CODEC = Block.createCodec(BuiltSnowmanBlock::new);
     public static final EnumProperty<DoubleBlockHalf> HALF = Properties.DOUBLE_BLOCK_HALF;
     protected static final VoxelShape SHAPE = Block.createCuboidShape(2, 0.0, 2.0, 14.0, 16.0, 14.0);
+    protected static final VoxelShape SHAPE_TOP = Block.createCuboidShape(3, 0.0, 3.0, 13.0, 15.0, 13.0);
 
     public BuiltSnowmanBlock(Settings settings) {
         super(settings);
@@ -133,6 +134,11 @@ public class BuiltSnowmanBlock extends HorizontalFacingBlock {
 
     @Override
     protected VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        return SHAPE;
+        var half = state.get(HALF);
+        if (half == DoubleBlockHalf.LOWER) {
+            return SHAPE;
+        }
+
+        return SHAPE_TOP;
     }
 }

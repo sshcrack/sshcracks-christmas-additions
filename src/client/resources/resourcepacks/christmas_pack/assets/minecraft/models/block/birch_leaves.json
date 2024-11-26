@@ -3,7 +3,7 @@
 	"textures": {
 		"0": "block/birch_leaves/birch_leaves_side",
 		"1": "block/birch_leaves/birch_leaves",
-		"2": "block/birch_leaves/birch_leaves_top",
+		"2": "block/birch_leaves/birch_leaves",
 		"particle": "block/birch_leaves/birch_leaves_side"
 	},
 	"elements": [

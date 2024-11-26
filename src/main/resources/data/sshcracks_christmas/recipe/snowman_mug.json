@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# ",
+    "M "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:flower_pot"
+    },
+    "#": {
+        "item": "sshcracks_christmas:built_snowman"
+    }
+  },
+  "result": {
+    "id": "sshcracks_christmas:snowman_mug",
+    "count": 1
+  }
+}

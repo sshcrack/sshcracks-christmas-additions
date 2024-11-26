@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# ",
+    "M "
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:flower_pot"
+    },
+    "#": {
+        "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "id": "sshcracks_christmas:creeper_mug",
+    "count": 1
+  }
+}
