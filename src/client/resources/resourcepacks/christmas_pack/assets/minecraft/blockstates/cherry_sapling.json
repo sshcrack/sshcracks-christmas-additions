@@ -1,0 +1,10 @@
+{
+ "variants": {
+  "covered_with_snow=false": {
+   "model": "minecraft:block/cherry_sapling"
+  },
+  "covered_with_snow=true": {
+   "model": "minecraft:block/snowy/cherry_sapling"
+  }
+ }
+}

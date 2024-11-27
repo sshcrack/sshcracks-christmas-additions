@@ -1,6 +1,9 @@
 {
   "variants": {
-    "": [
+    "covered_with_snow=false": {
+      "model": "block/short_grass"
+    },
+    "covered_with_snow=true": [
       {
         "model": "block/short_grass/grass",
         "weight": 1

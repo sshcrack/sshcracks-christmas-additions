@@ -10,5 +10,7 @@
   "block.sshcracks_christmas.spots_mug": "Spots Mug",
   "block.sshcracks_christmas.floe": "Floe",
   "block.sshcracks_christmas.built_snowman": "Built Snowman",
-  "itemGroup.sshcracks_christmas.main_group": "sshcrack's Christmas"
+  "itemGroup.sshcracks_christmas.main_group": "sshcrack's Christmas",
+  "text.config.sshcracks_christmas.option.changeSnowThreshold": "Overwrite vanilla snow temperature",
+  "text.config.sshcracks_christmas.option.maxTemperatureToSnow": "Maximum temperature"
 }

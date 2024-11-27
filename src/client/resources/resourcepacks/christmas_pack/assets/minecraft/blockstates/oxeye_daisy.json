@@ -1,0 +1,10 @@
+{
+ "variants": {
+  "covered_with_snow=false": {
+   "model": "minecraft:block/oxeye_daisy"
+  },
+  "covered_with_snow=true": {
+   "model": "minecraft:block/snowy/oxeye_daisy"
+  }
+ }
+}

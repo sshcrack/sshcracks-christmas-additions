@@ -1,0 +1,10 @@
+{
+ "variants": {
+  "covered_with_snow=false": {
+   "model": "minecraft:block/red_tulip"
+  },
+  "covered_with_snow=true": {
+   "model": "minecraft:block/snowy/red_tulip"
+  }
+ }
+}

@@ -3,12 +3,12 @@ package me.sshcrack.sshcracks_christmas;
 import me.sshcrack.sshcracks_christmas.registry.ModBlocks;
 import me.sshcrack.sshcracks_christmas.registry.ModItemGroups;
 import net.fabricmc.api.ModInitializer;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class SshcracksChristmas implements ModInitializer {
     public static final String MOD_ID = "sshcracks_christmas";
+    public static final me.sshcrack.sshcracks_christmas.ChristmasConfig CONFIG = me.sshcrack.sshcracks_christmas.ChristmasConfig.createAndLoad();
 
     // This logger is used to write text to the console and the log file.
     // It is considered best practice to use your mod id as the logger's name.

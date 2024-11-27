@@ -1,0 +1,10 @@
+{
+ "variants": {
+  "covered_with_snow=false": {
+   "model": "minecraft:block/lily_of_the_valley"
+  },
+  "covered_with_snow=true": {
+   "model": "minecraft:block/snowy/lily_of_the_valley"
+  }
+ }
+}

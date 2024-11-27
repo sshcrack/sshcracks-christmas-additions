@@ -1,0 +1,16 @@
+{
+ "variants": {
+  "half=lower,covered_with_snow=false": {
+   "model": "minecraft:block/lilac_bottom"
+  },
+  "half=lower,covered_with_snow=true": {
+   "model": "minecraft:block/snowy/lilac_bottom"
+  },
+  "half=upper,covered_with_snow=false": {
+   "model": "minecraft:block/lilac_top"
+  },
+  "half=upper,covered_with_snow=true": {
+   "model": "minecraft:block/snowy/lilac_top"
+  }
+ }
+}
