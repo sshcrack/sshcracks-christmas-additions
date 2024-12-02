@@ -2,9 +2,7 @@
   "required": true,
   "package": "me.sshcrack.sshcracks_christmas.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": [
-    "AlwaysSnowMixin"
-  ],
+  "mixins": [],
   "injectors": {
     "defaultRequire": 1
   }

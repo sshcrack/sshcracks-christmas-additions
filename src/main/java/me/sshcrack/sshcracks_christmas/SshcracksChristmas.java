@@ -3,6 +3,7 @@ package me.sshcrack.sshcracks_christmas;
 import me.sshcrack.sshcracks_christmas.registry.ModBlocks;
 import me.sshcrack.sshcracks_christmas.registry.ModItemGroups;
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.block.Blocks;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

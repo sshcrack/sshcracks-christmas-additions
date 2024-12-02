@@ -69,7 +69,7 @@ dependencies {
 	// Stuff to run SnowedIn
 	modRuntimeOnly "maven.modrinth:resourceful-config:XU6siwgV"
 	implementation(annotationProcessor("com.bawnorton.mixinsquared:mixinsquared-fabric:0.2.0"))
-	modImplementation "blank:SnowedIn:0.4"
+	modImplementation "blank:SnowedIn:0.4-new-new"
 }
 
 processResources {

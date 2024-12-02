@@ -18,8 +18,9 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.*;
 import org.jetbrains.annotations.Nullable;
+import uwu.serenity.snowed_in.api.SnowloggableBlock;
 
-public class BuiltSnowmanBlock extends HorizontalFacingBlock {
+public class BuiltSnowmanBlock extends HorizontalFacingBlock implements SnowloggableBlock {
     public static final MapCodec<BuiltSnowmanBlock> CODEC = Block.createCodec(BuiltSnowmanBlock::new);
     public static final EnumProperty<DoubleBlockHalf> HALF = Properties.DOUBLE_BLOCK_HALF;
     protected static final VoxelShape SHAPE = Block.createCuboidShape(2, 0.0, 2.0, 14.0, 16.0, 14.0);

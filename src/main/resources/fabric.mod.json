@@ -34,7 +34,8 @@
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*",
-		"sereneseasons": ">=10.1.0.1"
+		"sereneseasons": ">=10.1.0.1",
+		"snowed_in":  ">=0.4"
 	},
 	"suggests": {
 	}

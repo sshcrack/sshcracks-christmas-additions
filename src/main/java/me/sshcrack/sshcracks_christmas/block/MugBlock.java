@@ -13,8 +13,9 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import org.jetbrains.annotations.Nullable;
+import uwu.serenity.snowed_in.api.SnowloggableBlock;
 
-public class MugBlock extends HorizontalFacingBlock {
+public class MugBlock extends HorizontalFacingBlock implements SnowloggableBlock {
     public static final MapCodec<MugBlock> CODEC = Block.createCodec(MugBlock::new);
 
     protected static final VoxelShape SHAPE = Block.createCuboidShape(5.0, 0.0, 5.0, 11.0, 6.0, 11.0);
